@@ -1,0 +1,29 @@
+<!--Codigo Eduardo Almendarez-->
+
+<style>
+    ol{
+        list-style-type: square;
+        list-style-type: none;
+        counter-reset: item;
+    }
+    li{
+        position: relative;
+        padding-left: 2em;
+    }
+    li::before{
+        content: counter(item);
+        counter-increment: item;
+        position: absolute;
+        left: 0;
+        color: blue;
+        font-weight: bold;
+    }
+</style>
+Eduardo Almendarez
+<ol>
+    <li><a href="https://gunsnroses.com/" target="_blank">Guns and roses</a></li>
+    <li><a href="https://www.explosionsinthesky.com/" target="_parent">Explosions in the sky</a></li>
+    <li><a href="https://www.toolband.com/home?k=72fb8139" target="_self">TOOL</a></li>
+    <li><a href="https://www.khalidofficial.com/tour/" target="_top">Khalid</a></li>
+    <li><a href="https://sigurros.com/">Sigur rós</a></li>
+</ol>
